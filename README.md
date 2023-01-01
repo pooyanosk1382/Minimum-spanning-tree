@@ -12,3 +12,10 @@ Prim's algorithm starts with the single node and explores all the adjacent nodes
 Boruvka's algorithm is straightforward and intuitive. It is a greedy algorithm that constructs a globally "optimal" solution using smaller, locally optimal solutions for smaller sub problems.
 
 Greedy algorithms are generally concerned with the most optimal solution when the smaller steps add up.
+
+# Kruskal
+In Kruskal's algorithm, we start from edges with the lowest weight and keep adding the edges until the goal is reached. The steps to implement Kruskal's algorithm are listed as follows -
+
+    First, sort all the edges from low weight to high.
+    Now, take the edge with the lowest weight and add it to the spanning tree. If the edge to be added creates a cycle, then reject the edge.
+    Continue to add the edges until we reach all vertices, and a minimum spanning tree is created.
